@@ -1,0 +1,87 @@
+/***** GRID & STYLING SHEETS *****/
+body{
+    background-color:#E8E8E8;
+    padding: 50px;
+}
+#vision-board{
+    width: 1200px;
+    height: 850px;
+    background-image: url('../img/background.png');
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    overflow: auto;
+    background-size: cover;
+    margin: 0 auto;
+}
+.block{
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+.small-block{
+    height: 210px;
+    padding: 30px;
+}
+.large-block{
+    height: 430px;
+    padding: 42px;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.light-bg{
+    background-color:#FFFFFF;
+}
+.dark-bg{
+    background-color:#3B3B3B
+}
+.eye h1 span{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+.eye h1{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/**** GROW ****/
+.grow strong{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+.grow h4 span{
+    background-color: #FFF44F;
+    font-size: 20px;
+}
+/**** FREELANCE ****/
+.piggy strong{
+    font-size: 38px;
+    text-transform: none;
+}
+.piggy h4 span{
+    background-color: #FFF44F;
+    font-size: 20px;
+}
+/**** TRAVEL ****/
+.plane strong{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+.plane h4 span{
+    background-color: #FFF44F;
+    font-size: 20px;
+}
+/**** MIND & BODY ****/
+.mind strong{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+.mind h4 span{
+    background-color: #FFF44F;
+    font-size: 20px;
+}
